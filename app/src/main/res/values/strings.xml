@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AttendanceApp</string>
+
+    <string-array name="absence_reasons">
+        <item>Sick</item>
+        <item>Traveled</item>
+        <item>Hospital Checkup</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Week 1</item>
+        <item>Week 2</item>
+        <item>Week 3</item>
+        <item>Week 4</item>
+        <item>Week 5</item>
+    </string-array>
+
+    <string-array name="dashboard_weeks">
+        <item>Week 1</item>
+        <item>Week 2</item>
+        <item>Week 3</item>
+        <item>Week 4</item>
+        <item>Week 5</item>
+    </string-array>
+</resources>

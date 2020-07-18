@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/backgorund2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="40dp"
+                android:padding="5dp"
+                android:layout_marginEnd="40dp">
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/genTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Gender"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/commentText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Comment"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:ems="10"
+                    android:inputType="textPersonName"/>
+
+                <Spinner
+                    android:id="@+id/spinnerComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/absence_reasons"/>
+
+
+            </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/attendancecheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

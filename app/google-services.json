@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250862271187",
+    "firebase_url": "https://attendance-ba2fa.firebaseio.com",
+    "project_id": "attendance-ba2fa",
+    "storage_bucket": "attendance-ba2fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250862271187:android:a4b181726d2896c01df226",
+        "android_client_info": {
+          "package_name": "com.belinda.attendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250862271187-5b2ng2ppo4mc3j2j2qco9ne5jvod977b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.belinda.attendanceapp",
+            "certificate_hash": "6a40c39a8d320b2605dc6b3197c3f90d34648859"
+          }
+        },
+        {
+          "client_id": "250862271187-lqv51evnci0ufopbrveiaavq4d5kb6eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhefmr-kKkFFzA9C-QM16yA-cFJHJKaCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250862271187-lqv51evnci0ufopbrveiaavq4d5kb6eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

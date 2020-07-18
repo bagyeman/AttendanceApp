@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentInfoActivity">
+
+    <EditText
+        android:id="@+id/studentNameText"
+        android:layout_width="337dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/gender_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/genderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <RadioButton
+            android:id="@+id/maleradiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="286dp"
+        android:layout_marginLeft="286dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="108dp"
+        android:text="Save"
+        android:onClick="save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</LinearLayout>
